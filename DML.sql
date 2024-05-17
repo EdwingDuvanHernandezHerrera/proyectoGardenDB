@@ -184,8 +184,29 @@ VALUES
 -- -----------------------------------------------------
 -- Table `garden_db`.`region`
 -- -----------------------------------------------------
-INSERT INTO region (codigo_region, nombre_region, codigo_pais) VALUES ('US-FL', 'Miami', 'USA'), ('ES-MD', 'Madrid', 'ESP'), ('ES-BCN', 'Barcelona', 'ESP'), ('ES-CAN', 'Islas Canarias', 'ESP'), ('ES-CT', 'Cataluña', 'ESP'), ('ES-CA', 'Cadiz', 'ESP'), ('AU-NSW', 'Nueva Gales del Sur', 'AUS'), ('ES-FU', 'Fuenlabrada', 'ESP'), ('UK-LDN', 'London', 'UK')
-INSERT INTO region (codigo_region, nombre_region, codigo_pais) VALUES ('US-CA', 'San Francisco', 'USA'), ('US-NY', 'New York', 'USA'), ('ES-SL', 'San Lorenzo del Escorial', 'ESP'), ('ES-MV', 'Montornes del valles', 'ESP'), ('ES-SCT', 'Santa cruz de Tenerife', 'ESP'), ('ES-ST', 'Sotogrande', 'ESP'), ('ES-HU', 'Humanes', 'ESP'), ('ES-GE', 'Getafe', 'ESP'), ('FR-PAR', 'Paris', 'FRA'), ('US-MA', 'Boston', 'USA'), ('ES-CM', 'Talavera de la Reina', 'ESP'), ('JP-TK', 'Tokyo', 'JPN');
+INSERT INTO region (codigo_region, nombre_region, codigo_pais)
+VALUES
+('US-FL', 'Miami', 'USA'),
+('ES-MD', 'Madrid', 'ESP'),
+('ES-BCN', 'Barcelona', 'ESP'),
+('ES-CAN', 'Islas Canarias', 'ESP'),
+('ES-CT', 'Cataluña', 'ESP'),
+('ES-CA', 'Cadiz', 'ESP'),
+('AU-NSW', 'Nueva Gales del Sur', 'AUS'),
+('ES-FU', 'Fuenlabrada', 'ESP'),
+('UK-LDN', 'London', 'UK'),
+('US-CA', 'San Francisco', 'USA'),
+('US-NY', 'New York', 'USA'),
+('ES-SL', 'San Lorenzo del Escorial', 'ESP'),
+('ES-MV', 'Montornes del valles', 'ESP'),
+('ES-SCT', 'Santa cruz de Tenerife', 'ESP'),
+('ES-ST', 'Sotogrande', 'ESP'),
+('ES-HU', 'Humanes', 'ESP'),
+('ES-GE', 'Getafe', 'ESP'),
+('FR-PAR', 'Paris', 'FRA'),
+('US-MA', 'Boston', 'USA'),
+('ES-CM', 'Talavera de la Reina', 'ESP'),
+('JP-TK', 'Tokyo', 'JPN');
 
 
 -- -----------------------------------------------------
