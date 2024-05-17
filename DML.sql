@@ -168,11 +168,7 @@ VALUES
 -- -----------------------------------------------------
 INSERT INTO pais (codigo_pais, nombre_pais)
 VALUES
-('USA', 'USA'),
-('ESP', 'Spain'),
-('FRA', 'France'),
 ('AUS', 'Australia'),
-('UK', 'United Kingdom'),
 ('ESP', 'España'),
 ('USA', 'EEUU'),
 ('UK', 'Inglaterra'),
