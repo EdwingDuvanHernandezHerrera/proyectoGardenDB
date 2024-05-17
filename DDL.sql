@@ -170,7 +170,7 @@ CREATE TABLE IF NOT EXISTS `garden_db`.`puesto_empleado` (
 CREATE TABLE IF NOT EXISTS `garden_db`.`empleado` (
   `codigo_empleado` INT(11) NOT NULL AUTO_INCREMENT,
   `nombre_empleado` VARCHAR(50) NOT NULL,
-  `apellido1_emprelado` VARCHAR(50) NOT NULL,
+  `apellido1_empleado` VARCHAR(50) NOT NULL,
   `apellido2_empleado` VARCHAR(50) NULL,
   `email_empleado` VARCHAR(100) NOT NULL,
   `codigo_oficina` INT(11) NOT NULL,
